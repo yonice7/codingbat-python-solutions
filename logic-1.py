@@ -76,10 +76,10 @@ def alarm_clock(day, vacation):
     be "off".
     '''
 
-  early = '7:00' if not vacation else '10:00'
-  late = '10:00' if not vacation else 'off'
+    early = '7:00' if not vacation else '10:00'
+    late = '10:00' if not vacation else 'off'
 
-  return early if day in range(1,6) else late
+    return early if day in range(1,6) else late
 
 #love6
 def love6(a, b):
@@ -88,7 +88,7 @@ def love6(a, b):
     is 6. Or if their sum or difference is 6. Note: the function abs(num) computes the absolute
     value of a number.
     '''
-  return a+b == 6 or a == 6 or b == 6 or abs(a-b) == 6
+    return a+b == 6 or a == 6 or b == 6 or abs(a-b) == 6
 
 # in1to10
 def in1to10(n, outside_mode):
